@@ -67,3 +67,36 @@
 /**
  * アロー関数
  */
+// // 従来の関数
+// // パターン１：functionで関数定義
+// function func1(str) {
+//   return str;
+// }
+// console.log(func1("func1です"));
+
+// パターン２：関数を変数で定義して使う
+// const func1 = function(str) {
+//   return str;
+// }
+// console.log(func1("func1です"));
+
+// アロー関数
+// アロー関数基本形
+// const func2 = (str) => {
+//   return str;
+// }
+// console.log(func2("func2です"));
+
+// アロー関数やや省略形(strの()を省略)
+// const func2 = str => {
+//   return str;
+// }
+// console.log(func2("func2です"));
+
+// アロー関数ガチ省略形(返す値が一行ならreturnと{}も省略可能＋strの()省略)
+// const func2 = (str) => str;
+// console.log(func2("func2です"));
+
+/**
+ * 分割代入
+ */
