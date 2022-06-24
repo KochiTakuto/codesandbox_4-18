@@ -100,3 +100,32 @@
 /**
  * 分割代入
  */
+// オブジェクトの宣言
+// const myProfile = {
+//   name: "じゃけぇ",
+//   age: 28
+// };
+
+//毎回「myProfile.〇〇」と書くので分かりにくい
+//const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`;
+//console.log(`message1：${message1}`);
+
+//分割代入を行う(オブジェクトの場合、オブジェクトの名前と同じ名前で分割代入を行う)
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}です。`;
+// console.log(`message2：${message2}`);
+
+//配列の宣言
+// const myProfile = ["じゃけぇ", 28];
+
+// const message3 = `私の名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
+// console.log(`message3：${message3}`);
+
+// //分割代入を行う(配列の場合、オブジェクトと違い名前が決まっていないので、配列0,配列1の順番に名前をつけていく)
+// const [ name, age ] = myProfile;
+// const message4 = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(`message4：${message4}`);
+
+/**
+ * デフォルト値
+ */
