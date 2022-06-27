@@ -203,5 +203,25 @@
 // console.log(newNameArr);
 
 /**
- * 三項演算子
+ * 三項演算子(ES2015ではない、基本なので紹介)
+ */
+// ある条件 ? で条件指定し、trueの時「：」falseの時
+// const val1 = 1 < 0 ? `trueです` : `falseです`;
+// console.log(val1);
+
+// const num = `1300`;
+//○○.toLocaleString()とは、金額表示のように3桁ごとに,で区切る関数(JavaScript)
+//console.log(num.toLocaleString());
+
+//typeofはその変数の型が何なのかを判定する
+// const formattedNum = typeof num === `number` ? num.toLocaleString() : `数値を設定してください`;
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? `100を超えています!!` : `許容範囲内です`;
+// }
+// console.log(checkSum(50, 51));
+
+/**
+ * 論理演算子の本当の意味を知ろう
  */
