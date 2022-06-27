@@ -223,5 +223,28 @@
 // console.log(checkSum(50, 51));
 
 /**
- * 論理演算子の本当の意味を知ろう
+ * 論理演算子の本当の意味を知ろう && ||
+ */
+// const flag1 = true;
+// const flag2 = false;
+
+// if (flag1 || flag2) {
+//   console.log("1か2はtrueになります");
+// }
+// if (flag1 && flag2) {
+//   console.log("1も2はtrueになります");
+// }
+
+// || は左側がfalseなら、右側を返す という処理
+// const num = 100;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// && は左側がtrueなら右側を返す
+// const num2 = null;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
+
+/**
+ * セクションまとめ
  */
